@@ -3,9 +3,7 @@ express_obj = express();
 const config = require("config")
 const {pool} = require("../model/model")
 const jwt = require("jsonwebtoken");
-const { response } = require('express');
 express_obj.use(express.json());
-const auth = require("./auth");
 const Joi = require("joi");
 
 module.exports.getData = async(request,response) => {

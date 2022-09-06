@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "build": "webpack",
-    "start": "nodemon ./src/index.js"
+    "start": "nodemon ./src/index.js",
+    "start_build":"node dist/main.js"
   },
   "keywords": [],
   "author": "",
